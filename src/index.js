@@ -1,28 +1,4 @@
-class Either {
-    constructor(value) {
-        this.value = value;
-    }
-
-    get isLeft() {
-        return (this instanceof Left);
-    }
-
-    get isRight() {
-        return (this instanceof Right);
-    }
-}
-
-class Left extends Either {
-    constructor(value) {
-        super(value);
-    }
-}
-
-class Right extends Either {
-    constructor(value) {
-        super(value);
-    }
-}
+const { Either, Left, Right } = require('./either');
 
 /**
  * iterates over an array of promises, returning a single promise with an object that contains all success and all failure values (optionally failing if errors are present
