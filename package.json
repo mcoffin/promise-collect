@@ -1,0 +1,23 @@
+{
+  "name": "promise-collect",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcoffin/promise-collect.git"
+  },
+  "author": "Matt Coffin <mcoffin13@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcoffin/promise-collect/issues"
+  },
+  "homepage": "https://github.com/mcoffin/promise-collect#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  }
+}
